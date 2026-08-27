@@ -1,5 +1,6 @@
 # Reading Notes
 This repository contains simple reading notes.
+They are intended for my own reference and learning. Please refer to the original for complete and accurate information.
 
 ## ML/AI
 
