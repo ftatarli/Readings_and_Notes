@@ -7,7 +7,7 @@ This repository contains simple reading notes. Please refer to the original for 
 
 ## MLOps
 
-- [x] #1: Treveil et al. (2020). Introducing MLOps. O’Reilly. [`Notes`](Readings_and_Notes/MLOps/2025_Huyen.md)
+- [x] #1: Treveil et al. (2020). Introducing MLOps. O’Reilly. [`Notes`](Readings_and_Notes/MLOps/2020_Treveil.md)
 - [ ] #2: Huyen, C. (2022). Designing Machine Learning Systems. O’Reilly. [`Notes`](Readings_and_Notes/MLOps/2025_Huyen.md)
 
 ## Engineering
