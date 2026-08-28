@@ -2,7 +2,7 @@
 
 by Mark Treveil, Nicolas Omont, Clément Stenac, Kenji Lefevre, Du Phan, Joachim Zentici, Adrien Lavoillotte, Makoto Miyazaki, Lynn Heidmann
 
-## What and Why
+## I - What and Why
 
 MLOps exists because machine learning systems are not software systems. Software code, once shipped, sits still. A model is made of _code plus data_, and data never stops moving. That single asymmetry is what makes MLOps a distinct discipline rather than a rebranding of DevOps. 
 
@@ -20,7 +20,7 @@ MLOps exists because machine learning systems are not software systems. Software
 - **MLOps maturity can be developed gradually.** A first version of a model does not necessarily need a complete and sophisticated CI/CD pipeline. What seems more important is gradually improving the process with each deployment. A practical starting point could include versioning experiments and models, comparing a new model with the current one before promoting it, scheduling performance monitoring, and adding basic sanity checks to predictions.
 - **Transparency is another important part of MLOps.** Teams should be able to understand what a model does, which data was used to train it, who approved it, and when it was last updated. In regulated industries, this may be necessary for audits and compliance. Even outside those environments, having this information makes it much easier to investigate problems and explain model decisions to stakeholders when something goes wrong.
 
-## How
+## II - How
 
 4. Developing Models
 
