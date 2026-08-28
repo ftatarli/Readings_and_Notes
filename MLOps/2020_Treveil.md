@@ -7,8 +7,6 @@ by Mark Treveil, Nicolas Omont, Clément Stenac, Kenji Lefevre, Du Phan, Joa
 
 MLOps exists because machine learning systems are not software systems. Software code, once shipped, sits still. A model is made of _code plus data_, and data never stops moving. That single asymmetry is what makes MLOps a distinct discipline rather than a rebranding of DevOps. 
 
-### Key Concepts
-
 - **Why the interest exploded.** Companies had _many_ models in production simultaneously. One model is a project you can babysit. Fifty models is an operations problem, and managing them by hand becomes unfeasible.
 - **There are two main challenges behind MLOps.** The first is related to the data itself: data can change over time, meaning that a model's performance may also change after deployment. The second is related to the people and processes involved. Data scientists are not always trained in areas such as software testing, version control, CI/CD, or production reliability. MLOps helps address both problems by providing processes and tools for monitoring and maintaining models while also bringing more engineering discipline to the machine learning lifecycle.
 - **MLOps has a lot in common with DevOps, but there are important differences.** Both emphasize automation, collaboration between teams, testing, and reliable deployment processes. The main difference is that traditional software usually operates with relatively stable code, while ML systems depend heavily on data that can continuously change. A software unit test may have a clear pass or fail result, while model performance is often more dependent on the data it is evaluated on. A model that performs well today may not perform equally well in a different environment or with a different population.
