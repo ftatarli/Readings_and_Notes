@@ -23,7 +23,14 @@ MLOps exists because machine learning systems are not software systems. Software
 
 5. Preparing for Production
 
-6. Deploying to Production
+### 6. Deploying to Production
+
+Many of the practices needed to make deployment reliable already exist in software engineering, including CI/CD, containerization, and orchestration. The main difference for machine learning is that we are not only deploying code. The deployed system can also depend on data, a specific environment, and the trained model itself. As systems grow, there are also two different scaling challenges: handling more data for a model and managing a growing number of models. The first is mainly an infrastructure problem, while the second also involves processes, standardization, and governance.
+
+**Start with something simple and improve it over time.** A basic but functional CI/CD process can be more valuable than building complex infrastructure for problems that have not appeared yet. As the system and team gain experience, the process can evolve based on the challenges that actually matter.
+**Let the risks of the organization guide the design.** Different companies and models have different requirements. The purpose of a deployment pipeline should be to manage the risks that are relevant to the specific system, rather than simply following a standard architecture because it is considered best practice.
+**Version control is the starting point, but it is not enough on its own.** Centralized version control helps teams collaborate and reproduce changes, but ML systems also need ways to manage datasets, model artifacts, and other large files that are not always well suited to traditional Git workflows.
+**Many of the core ideas behind reliable ML deployment already exist in software engineering.** The challenge is adapting those practices to systems that also depend on data and trained models. Once that foundation is in place, it becomes much easier to build the additional monitoring, governance, and operational practices required as ML systems grow.
 
 ### 7. Monitoring and Feedback Loop
 
