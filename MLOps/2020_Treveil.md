@@ -1,5 +1,6 @@
 # Introducing MLOps
 
+(2020)
 by Mark Treveil, Nicolas Omont, Clément Stenac, Kenji Lefevre, Du Phan, Joachim Zentici, Adrien Lavoillotte, Makoto Miyazaki, Lynn Heidmann
 
 ## I - What and Why
