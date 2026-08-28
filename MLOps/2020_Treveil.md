@@ -39,10 +39,10 @@ Many of the practices needed to make deployment reliable already exist in softwa
 
 ### 7. Monitoring and Feedback Loop
 
-A machine learning model is not a finished product at deployment, it is a decaying asset. The moment a model goes live, the world it was trained on begins to drift away from the world it is scoring, and this degradation happens silently unless it is deliberately measured. Monitoring (at both the resource and performance levels) plus a structured feedback loop is what turns a one-off model into a sustainable production system. The real question is never whether to retrain, but when — and that "when" is a business decision balancing the cost of the retraining pipeline against the value of the performance recovered.
+A machine learning model is not a finished product at deployment, it is a decaying asset. The moment a model goes live, the world it was trained on begins to drift away from the world it is scoring, and this degradation happens silently unless it is deliberately measured. Monitoring (at both the resource and performance levels) plus a structured feedback loop is what turns a one-off model into a sustainable production system. The real question is never whether to retrain, but "when" and that "when" is a business decision balancing the cost of the retraining pipeline against the value of the performance recovered.
 
 - **Treat monitoring as part of the deliverable.** A model without metrics, thresholds, and an alert owner is not production-ready, regardless of its offline scores.
-- **Use ground truth where you can, drift detection where you can't** — and ideally both, with drift as the fast early warning and ground truth as the slower confirmation.
+- **Use ground truth where you can, drift detection where you can't.** Ideally both, with drift as the fast early warning and ground truth as the slower confirmation.
 - **Instrument for logging from day one.** Retraining requires that predictions, inputs, model version, and eventual outcomes were captured and joinable. This is far harder to retrofit than to design in.
 - **Make retraining a governed, versioned process.** Validate the candidate against the incumbent (shadow scoring, champion/challenger, A/B testing) before promotion. Retraining on drifted data is not automatically an improvement.
 - **Tie thresholds to business impact.** The alert that matters is the one that fires when revenue, risk, or user experience is measurably affected. Statistical significance on a feature that has little business impact is not a useful alert.
