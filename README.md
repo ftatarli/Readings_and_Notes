@@ -4,13 +4,13 @@ This repository contains simple reading notes. Please refer to the original for 
 ## ML/AI
 
 - [X] #1: Sculley et al. (2015). Hidden Technical Debt in Machine Learning Systems. NeurIPS 28.
-- [X] #2: Ng, A. (2018). Machine Learning Yearning. [`Notes`](Readings_and_Notes/MLOps/2018_Ng.md)
+- [X] #2: Ng, A. (2018). Machine Learning Yearning. [`Notes`](MLAI/2018_Ng.md)
 - [ ] #3: Molnar, C. (2025). Interpretable Machine Learning: A Guide For Making Black Box Models Explainable.
 
 ## MLOps
 
 - [x] #1: Treveil et al. (2020). Introducing MLOps. O’Reilly. [`Notes`](MLOps/2020_Treveil.md)
-- [ ] #2: Huyen, C. (2022). Designing Machine Learning Systems. O’Reilly. [`Notes`](Readings_and_Notes/MLOps/2025_Huyen.md)
+- [ ] #2: Huyen, C. (2022). Designing Machine Learning Systems. O’Reilly. [`Notes`](MLOps/2025_Huyen.md)
 
 ## Engineering
 
@@ -21,6 +21,6 @@ This repository contains simple reading notes. Please refer to the original for 
 
 ## Others
 
-- [X] #1: Tippett (2019). The Expected Goals Philosophy. [`Notes`](Readings_and_Notes/MLOps/2020_Treveil.md)
+- [X] #1: Tippett (2019). The Expected Goals Philosophy. [`Notes`](Others/2019_Tippett.md)
 - [X] #2: Ethan Mollick - Co-Intelligence: Living and Working with AI
 - [ ] #3: Brian Christian - The Alignment Problem: Machine Learning and Human Values
