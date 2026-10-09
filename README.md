@@ -4,6 +4,8 @@ This repository contains simple reading notes. Please refer to the original for 
 ## ML/AI
 
 - [X] #1: Sculley et al. (2015). Hidden Technical Debt in Machine Learning Systems. NeurIPS 28.
+- [X] #2: Ng, A. (2018). Machine Learning Yearning. [`Notes`](Readings_and_Notes/MLOps/2018_Ng.md)
+- [ ] #3: Molnar, C. (2025). Interpretable Machine Learning: A Guide For Making Black Box Models Explainable.
 
 ## MLOps
 
