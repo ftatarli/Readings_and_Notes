@@ -1,6 +1,6 @@
 # The Expected Goals Philosophy
 
-(2020)
+(2019)
 by James Tippett
 
 ## Football, randomness and why analytics matters
